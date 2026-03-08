@@ -12,9 +12,11 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.repro.keyboardcontroller1310"
     },
     "android": {
+      "package": "com.repro.keyboardcontroller1310",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -24,6 +26,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-dev-client"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d3c894a6-74b4-4128-a468-6b5629381996"
+      }
+    },
+    "owner": "recollectr"
   }
 }
